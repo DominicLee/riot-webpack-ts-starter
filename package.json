@@ -1,0 +1,47 @@
+{
+  "name": "riot-starter",
+  "version": "1.0.0",
+  "description": "A starter project for webpack/typescript",
+  "main": "index.ts",
+  "dependencies": {
+    "riot": "^3.10.3",
+    "riot-control": "^1.0.0",
+    "riot-route": "^3.1.3",
+    "less": "^3.0.4",
+    "less-loader": "^4.1.0",
+    "ts-loader": "^4.4.1",
+    "typescript": "^2.9.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-es2015-riot": "^1.1.0",
+    "babel-preset-latest": "^6.24.1",
+    "clean-webpack-plugin": "^0.1.19",
+    "css-loader": "^0.26.4",
+    "envify": "^1.2.1",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.4.0",
+    "react": "^0.9.0",
+    "riot-hot-reload": "^1.0.0",
+    "riot-tag-loader": "^2.1.0",
+    "source-map-loader": "^0.1.6",
+    "style-loader": "^0.13.2",
+    "webpack": "^4.12.0",
+    "webpack-cli": "^3.0.8",
+    "webpack-dev-server": "^3.1.4",
+    "webpack-merge": "^4.1.3",
+    "webpack-server": "^0.1.2"
+  },
+  "scripts": {
+    "start": "webpack-dev-server --progress --colors",
+    "build": "webpack -d --progress --colors",
+    "build:prod": "webpack --env.production --progress --colors",
+    "watch": "webpack --watch --progress --colors",
+    "watch:prod": "webpack --watch --env.production --progress --colors"
+  },
+  "author": "",
+  "license": "ISC"
+}
