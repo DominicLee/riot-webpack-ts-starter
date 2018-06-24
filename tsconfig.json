@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "target": "es2015",
+    "target": "es6",
     "noImplicitAny": false,
     "noImplicitReturns": true,
     "noUnusedLocals": true,
@@ -10,7 +10,7 @@
     "module": "commonjs",
     "moduleResolution": "node",
     "declaration": true,
-    "outDir": "../dist",
-    "declarationDir": "../dist/types"
+    "outDir": "./dist",
+    "declarationDir": "./dist/types"
   }
 }

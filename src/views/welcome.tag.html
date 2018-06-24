@@ -2,9 +2,7 @@ import './welcome.less';
 
 <welcome>
     <h3>{ title }</h3>
-    <script>
-      const tag = this;
-
-      tag.title = opts.title || '';
-    </script>
+    <div each="{thing in items}">
+        {thing}
+    </div>
 </welcome>
