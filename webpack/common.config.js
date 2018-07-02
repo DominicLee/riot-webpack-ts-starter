@@ -87,7 +87,7 @@ export default (env) => {
       ]
     },
     resolve: {
-      extensions: ['.js','.tsx','.html'],
+      extensions: ['.ts', '.tsx', '.js', 'html'],
     },
     plugins: [
       new webpack.ProvidePlugin({riot: 'riot'}),
